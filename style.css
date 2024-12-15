@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+
+    font-family: 'gabarito',sans-serif ;
+}
+.Navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+
+}
+.Navbar__s1__Title{
+    color: #a435f0;
+    
+}
+.Navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    align-items: center;
+
+
+}
+.Navbar__s2 input{
+    font-size: 16px;
+    
+    border: none;
+}
+.Navbar__s2 input:focus{
+    outline: none;
+    
+
+
+}
+.Navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 10px;
+    border-bottom:solid  black 1px;
+    justify-content: space-around;
+}
+.categories p{
+
+    background-color: #a435f0;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 30px;
+
+
+}
+.sale-image img{
+
+    width: 100%;
+
+
+}
+.Recommended{
+
+    padding: 10px;
+
+}
+.Recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.course_card{
+
+    width: 350px;
+}
+.course_card img{
+    height: 60%;
+
+    width: 100%;
+}
+.topics{
+
+    padding: 10px;
+}
+.topics_container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+.topics_container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-basis: 25%;
+    
+    flex-grow:1 
+    
+    
+    
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+
+}
+.footer__one p{
+
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
